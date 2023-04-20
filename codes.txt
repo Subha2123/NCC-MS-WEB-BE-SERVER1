@@ -1,0 +1,282 @@
+db.students.find().pretty()
+{
+        "_id" : ObjectId("62e8d8987045923a8bbf6aeb"),
+        "name" : "Rajesh",
+        "email" : "rajesh@gmail.com",
+        "password" : "rajesh",
+        "mobileNo" : 9768532179,
+        "batch" : "2021",
+        "dateOfEnroll" : "2022-06-01",
+        "EnrollingOfficer" : "Deepak",
+        "regimentNo" : "ncc01",
+        "rank" : "1",
+        "incharge" : "kumar",
+        "dob" : "2001-01-20",
+        "vegOrNonveg" : "Veg",
+        "aadharNo" : 123478763456,
+        "bankDetails" : [
+                {
+                        "holdername" : "Rajesh",
+                        "bankName" : "canra",
+                        "accNo" : 12345679675676,
+                        "branch" : "pattanam",
+                        "ifscCode" : "cnrb2134456",
+                        "_id" : ObjectId("62e8d8987045923a8bbf6aec")
+                }
+        ],
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("62e8d94c7045923a8bbf6aef"),
+        "name" : "Kannan",
+        "email" : "kannan@gmail.com",
+        "password" : "kannan",
+        "mobileNo" : 9500845673,
+        "batch" : "2021",
+        "dateOfEnroll" : "2022-06-05",
+        "EnrollingOfficer" : "Deepak",
+        "regimentNo" : "ncc02",
+        "rank" : "2",
+        "incharge" : "kumar",
+        "dob" : "2001-02-20",
+        "vegOrNonveg" : "Nonveg",
+        "aadharNo" : 456789762341,
+        "bankDetails" : [
+                {
+                        "holdername" : "kannan",
+                        "bankName" : "SBI",
+                        "accNo" : 12345679645678,
+                        "branch" : "sulur",
+                        "ifscCode" : "sbi23654789",
+                        "_id" : ObjectId("62e8d94c7045923a8bbf6af0")
+                }
+        ],
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("62e8da1a6efa5fc116d6a6ea"),
+        "name" : "Joshva",
+        "email" : "joshva@gmail.com",
+        "password" : "joshva",
+        "mobileNo" : 8675432454,
+        "batch" : "2021",
+        "dateOfEnroll" : ISODate("2022-06-10T00:00:00Z"),
+        "EnrollingOfficer" : "Deepak",
+        "regimentNo" : "ncc03",
+        "rank" : "2",
+        "incharge" : "kumar",
+        "dob" : ISODate("2001-02-22T00:00:00Z"),
+        "vegOrNonveg" : "Nonveg",
+        "aadharNo" : 456789756431,
+        "bankDetails" : [
+                {
+                        "holdername" : "joshva",
+                        "bankName" : "HDFC",
+                        "accNo" : 1234567964321,
+                        "branch" : "sulur",
+                        "ifscCode" : "hdfc4365478",
+                        "_id" : ObjectId("62e8da1a6efa5fc116d6a6eb")
+                }
+        ],
+        "__v" : 0
+}
+> db.students.find().pretty()
+{
+        "_id" : ObjectId("62e8d8987045923a8bbf6aeb"),
+        "name" : "Rajesh",
+        "email" : "rajesh@gmail.com",
+        "password" : "rajesh",
+        "mobileNo" : 9768532179,
+        "batch" : "2021",
+        "dateOfEnroll" : "2022-06-01",
+        "EnrollingOfficer" : "Deepak",
+        "regimentNo" : "ncc01",
+        "rank" : "1",
+        "incharge" : "kumar",
+        "dob" : "2001-01-20",
+        "vegOrNonveg" : "Veg",
+        "aadharNo" : 123478763456,
+        "bankDetails" : [
+                {
+                        "holdername" : "Rajesh",
+                        "bankName" : "canra",
+                        "accNo" : 12345679675676,
+                        "branch" : "pattanam",
+                        "ifscCode" : "cnrb2134456",
+                        "_id" : ObjectId("62e8d8987045923a8bbf6aec")
+                }
+        ],
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("62e8d94c7045923a8bbf6aef"),
+        "name" : "Kannan",
+        "email" : "kannan@gmail.com",
+        "password" : "kannan",
+        "mobileNo" : 9500845673,
+        "batch" : "2021",
+        "dateOfEnroll" : "2022-06-05",
+        "EnrollingOfficer" : "Deepak",
+        "regimentNo" : "ncc02",
+        "rank" : "2",
+        "incharge" : "kumar",
+        "dob" : "2001-02-20",
+        "vegOrNonveg" : "Nonveg",
+        "aadharNo" : 456789762341,
+        "bankDetails" : [
+                {
+                        "holdername" : "kannan",
+                        "bankName" : "SBI",
+                        "accNo" : 12345679645678,
+                        "branch" : "sulur",
+                        "ifscCode" : "sbi23654789",
+                        "_id" : ObjectId("62e8d94c7045923a8bbf6af0")
+                }
+        ],
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("62e8da1a6efa5fc116d6a6ea"),
+        "name" : "Joshva",
+        "email" : "joshva@gmail.com",
+        "password" : "joshva",
+        "mobileNo" : 8675432454,
+        "batch" : "2021",
+        "dateOfEnroll" : ISODate("2022-06-10T00:00:00Z"),
+        "EnrollingOfficer" : "Deepak",
+        "regimentNo" : "ncc03",
+        "rank" : "2",
+        "incharge" : "kumar",
+        "dob" : ISODate("2001-02-22T00:00:00Z"),
+        "vegOrNonveg" : "Nonveg",
+        "aadharNo" : 456789756431,
+        "bankDetails" : [
+                {
+                        "holdername" : "joshva",
+                        "bankName" : "HDFC",
+                        "accNo" : 1234567964321,
+                        "branch" : "sulur",
+                        "ifscCode" : "hdfc4365478",
+                        "_id" : ObjectId("62e8da1a6efa5fc116d6a6eb")
+                }
+        ],
+        "__v" : 0
+}
+
+
+
+
+
+
+
+
+
+
+
+   const saltRounds=10;
+  let cryptPass= await  bcrypt.hash(req.body.password,saltRounds) 
+
+  const {error}=validateStudent()
+  const regNo=await Student.findOne({regimentNo:req.body.regimentNo})
+  
+  const result = await cloudinary.uploader.upload(req.body.path);
+
+  let student={
+    name: req.body.name,
+    email:req.body.email,
+    password:cryptPass,
+    mobileNo: req.body.mobileNo ,                                                                                                                     
+    batch:req.body.batch,
+    dateOfEnroll:req.body.dateOfEnroll,
+    EnrollingOfficer:req.body.EnrollingOfficer,
+    regimentNo:req.body.regimentNo,
+    rank:req.body.rank,
+    incharge:req.body.incharge,
+    dob:req.body.dob,
+    bg:req.body.bg,
+    vegOrNonveg:req.body.vegOrNonveg,
+    aadharNo:req.body.aadharNo,
+    bankDetails:req.body.bankDetails, 
+    image:{  
+      img_name: req.body.img_name,
+      profile_img: result.secure_url,
+      cloudinary_id: result.public_id}
+  }
+  
+    if(error) return res.status(400).send(error.details[0].message);
+
+    if(regNo){
+      return res.status(400).send("Regiment Number is already exists");
+    } 
+    else{
+      
+        let addData=await Student.insertMany([student])
+        res.send(addData)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
